@@ -88,4 +88,68 @@ public class ArrayList<T> implements List<T> {
     }
 
 
+    @Override
+    public void reset() {
+
+    }
+
+    @Override
+    public T next() {
+        return null;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return false;
+    }
+
+    @Override
+    public void add(T element) {
+
+    }
+
+    @Override
+    public void add(int position, T element) {
+
+    }
+
+    @Override
+    public T remove(int position) {
+        return null;
+    }
+
+    @Override
+    public void clear() {
+
+    }
+
+    @Override
+    public T get(int position) {
+        return null;
+    }
+
+    @Override
+    public T set(int position, T element) {
+        return null;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return List.super.isEmpty();
+    }
+
+    @Override
+    public boolean contains(T element) {
+        return List.super.contains(element);
+    }
+
+    @Override
+    public boolean remove(T element) {
+        return List.super.remove(element);
+    }
 }
